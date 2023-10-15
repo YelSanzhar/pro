@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+  }
+.main {
+    width: 800px;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bet1 {
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+#me-img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 320px;
+}
+.bet1a {
+    width: 100%;
+    height: 80px;
+}
+#cont {
+    margin-left: 59px;
+}
+.cont {
+    width: 19px;
+    height: 20px;
+    object-fit: contain;
+    position: absolute;
+    left: 246px;
+}
+.bet1b {
+    padding-top: 70px;
+    width: 100%;
+    background-color: rgba(216, 236, 255, 1);
+}
+.circle {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgba(66, 66, 66, 1);
+    position: absolute;
+    left: 380px;
+    margin-top: 6px;
+}
+.circle1 {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgba(66, 66, 66, 1);
+    position: relative;
+    top: 32px;
+}
+.circle2 {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgba(66, 66, 66, 1);
+    float: right;
+    margin-top: 10px;
+}
+h3 {
+    margin-left: 15px;
+    text-align: center;
+}
+.me-int {
+    text-align: center;
+    margin-bottom: 25px;
+}
+span {
+    margin-left: 20px;
+}
+#cont span {
+    margin-left: 0;
+    position: relative;
+    top: 3px;
+}
+#lan {
+    margin-left: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#circles, #circles2 {
+    width: 150px;
+    height: 100px;
+    float: right;
+    position: relative;
+    bottom: 115px;
+    right: 15px;
+}
+#circles2 {
+    bottom: 255px;
+}
+#circle-blue, #circle-gray {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: rgba(0, 116, 253, 1);
+    margin: 13px 9px;
+    display: flex;
+    float: left;
+}
+#circle-gray {
+    background-color: rgba(126, 126, 126, 0.8);
+}
+.bet1b img{
+    position: absolute;
+}
+.int {
+    width: 350px;
+    height: 120px;
+    margin-left: 60px;
+}
+.int p {
+    margin: 15px 0;
+    margin-right: 75px;
+    display: flex;
+    float: left;
+}
+.int .cont {
+    position: relative;
+    left: 0;
+    margin-right: 7px;
+}
+h2 {
+    text-align: center;
+    color: rgba(66, 66, 66, 1);
+    font-weight: lighter;
+}
+.but {
+    text-align: center;
+    padding: 12px;
+}
+.but, .but1, .but2, .but3 {
+    width: 300px;
+    height: 40px;
+    background-color: rgba(66, 66, 66, 1);
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.but1 p{
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 11px;
+}
+.but2 p{
+    position: absolute;
+    margin-left: 125px;
+    margin-top: 11px;
+}
+.but3 p{
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 11px;
+}
+.bet2 {
+    padding: 10px;
+    width: 55%;
+    float: right;
+}
+.bet2 i {
+    opacity: 95%;
+}
+.bet2 p {
+    font-size: 13px;
+    margin: 9px;
+    margin-left: 10px;
+}
+#nam {
+    color: rgba(126, 126, 126, 1);
+    font-weight: bolder;
+}
+#year {
+    color: rgba(126, 126, 126, 1);
+}
+#about {
+    opacity: 70%;
+}
+#torts {
+    width: 150px;
+    height: 100px;
+    float: right;
+    position: relative;
+    bottom: 289px;
+    right: 15px;
+}
+#tort {
+    width: 110px;
+    height: 7px;
+    margin: 28px 0;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#tort1a, #tort2a, #tort3a, #tort4a, 
+#tort5a, #tort6a, #tort7a, #tort8a {
+    background-color: rgba(0, 116, 253, 1);
+}
+#tort1b, #tort2b, #tort3b, #tort4b, 
+#tort5b, #tort6b, #tort7b, #tort8b {
+    background-color: rgba(126, 126, 126, 0.8);
+}
+#tort1a {
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+#tort1b {
+    width: 25%;
+    height: 100%;
+    float: right;
+}
+#tort2a {
+    width: 63%;
+    height: 100%;
+    float: left;
+}
+#tort2b {
+    width: 37%;
+    height: 100%;
+    float: right;
+}
+#tort3a {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+#tort3b {
+    width: 70%;
+    height: 100%;
+    float: right;
+}
+#tort4a {
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+#tort4b {
+    width: 20%;
+    height: 100%;
+    float: right;
+}
+#tort5a {
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+#tort5b {
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+#tort6a {
+    width: 55%;
+    height: 100%;
+    float: left;
+}
+#tort6b {
+    width: 45%;
+    height: 100%;
+    float: right;
+}
+#tort7a {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+#tort7b {
+    width: 0%;
+    height: 100%;
+    float: right;
+}
+#tort8a {
+    width: 90%;
+    height: 100%;
+    float: left;
+}
+#tort8b {
+    width: 10%;
+    height: 100%;
+    float: right;
+}
+.int2 {
+    width: 350px;
+    height: 300px;
+    margin-left: 35px;
+    top: -25px;
+    display: flex;
+}
+.int2 p {
+    margin-bottom: 35px;
+}
+.int2a {
+    width: 50%;
+    float: left;
+}
+.int2b {
+    width: 50%;
+    float: right;
+}
